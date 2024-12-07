@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['flower', 'squash']
+
+roboflow:
+  workspace: squash-lwtzx
+  project: squash-eavww
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/squash-lwtzx/squash-eavww/dataset/1
